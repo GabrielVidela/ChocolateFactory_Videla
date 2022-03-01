@@ -1,12 +1,10 @@
+import { GiChocolateBar } from "react-icons/gi"
+import NavBar from "./NavBar"
 function Header (){
     return (
         <header id="main-header">
-            <h1>Chocolate Factory</h1>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Contacto</a>
-                <a href="#">Nosotros</a>
-            </nav>
+            <h1>Chocolate Factory<GiChocolateBar/></h1>
+            <NavBar/>
         </header>
     )
 }

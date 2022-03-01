@@ -1,9 +1,9 @@
-import NavBar from "./NavBar"
 
 const Footer = () => {
     return (
         <footer>
-            Todos los Derechos Reservados
+            ©Todos los Derechos Reservados
+            
         </footer>
     )
 }
